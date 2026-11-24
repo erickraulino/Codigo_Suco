@@ -1,0 +1,35 @@
+### teste de cadastro do usuario 1
+
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "email": "ana@gmail.com",
+    "cpf": "123.456.789-12",
+    "telefone": "48-98877-6655"
+}
+
+### teste de cadastro do usuario 2
+
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "nome": "Bruno",
+    "email": "bruno@gmail.com",
+    "cpf": "456.123.789-23",
+    "telefone": "47-95544-3322"
+}
+
+### teste de cadastro do usuario 3
+
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "nome": "Diego",
+    "email": "diego@gmail.com",
+    "cpf": "789.456.123-34",
+    "telefone": "47-94488-7755"
+}
